@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>Express Demo NodeJS</h1> <h4>Message: Successfully deploy using Aws-code-deploy and AWS pipeline</h4> <p>Version 2.0</p>');
+  res.send('<h1>Express Demo NodeJS</h1> <h4>Message: Successfully deploy using Aws-code-deploy and AWS pipeline.Using codedeploy</h4> <p>Version 2.0</p>');
 })
 
 app.get('/products', (req, res) => {
@@ -11,7 +11,6 @@ app.get('/products', (req, res) => {
     {
       <h5>productId: '101',</h5>
       price: 300
-      Message:this is one product
     },
     {
       productId: '102',

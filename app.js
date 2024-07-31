@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.get('/products', (req, res) => {
   res.send([
     {
-      <h5>productId: '101',</h5>
+      productId: '101',
       price: 300
     },
     {
